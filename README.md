@@ -1,3 +1,12 @@
+![Diffusion Models](https://img.shields.io/badge/Model-Diffusion-blue)
+![Molecular Generation](https://img.shields.io/badge/Task-Molecular--Generation-green)
+![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics-orange)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)
+![RDKit](https://img.shields.io/badge/Library-RDKit-brightgreen)
+![Build Status](https://github.com/g-Poulami/Diffusion-Models-for-Molecular-Generation/actions/workflows/main.yml/badge.badge.svg)
+![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Conditional Diffusion for Molecular Property Generation
 
 This repository features a functional implementation of a **Denoising Diffusion Probabilistic Model (DDPM)** applied to **Property-Guided Drug Design**. The model is trained on the **QM9 dataset** to learn the distribution of molecular properties and generate new property vectors conditioned on specific target chemical values.
