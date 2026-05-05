@@ -1,4 +1,4 @@
-﻿name: Molecular Diffusion CI
+name: Molecular Diffusion CI
 
 on:
   push:
@@ -22,15 +22,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install rdkit-pypi torch torch-geometric
-        if (Test-Path requirements.txt) { pip install -r requirements.txt }
+        pip install rdkit torch torch-geometric flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Lint with flake8
       run: |
-        pip install flake8
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
 
     - name: Run Tests
       run: |
-        pip install pytest
+        # If you don't have a tests folder yet, this step might fail.
+        # You can comment it out with # if needed.
         pytest
