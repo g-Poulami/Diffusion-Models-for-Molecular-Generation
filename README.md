@@ -1,7 +1,3 @@
-Here is a professional and comprehensive `README.md` for your project, specifically designed for your **Diffusion Models for Molecular Generation** repository. It incorporates the biological significance of your work and the technical results you achieved.
-
----
-
 # Conditional Diffusion for Molecular Property Generation
 
 This repository features a functional implementation of a **Denoising Diffusion Probabilistic Model (DDPM)** applied to **Property-Guided Drug Design**. The model is trained on the **QM9 dataset** to learn the distribution of molecular properties and generate new property vectors conditioned on specific target chemical values.
@@ -66,5 +62,3 @@ python nearest_neighbour.py
 *   `nearest_neighbour.py`: Mapping generated tensors to real QM9 molecules.
 
 ---
-
-Would you like to add a section specifically explaining the mathematical loss function used in the training script?
