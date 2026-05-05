@@ -3,7 +3,7 @@
 ![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics-orange)
 ![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)
 ![RDKit](https://img.shields.io/badge/Library-RDKit-brightgreen)
-![Build Status](https://github.com/g-Poulami/Diffusion-Models-for-Molecular-Generation/actions/workflows/main.yml/badge.badge.svg)
+![Molecular Diffusion CI](https://github.com/g-Poulami/Diffusion-Models-for-Molecular-Generation/actions/workflows/main.yml/badge.svg)
 ![Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
